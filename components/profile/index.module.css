@@ -1,0 +1,67 @@
+.wrapper {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.profile__list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.profile__items {
+  cursor: pointer;
+}
+
+.content__wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.card__aboutme {
+  width: 90%;
+
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item__profileImage {
+  width: 30%;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__image {
+  border-radius: 200px;
+  object-fit: cover;
+}
+
+.item__description {
+  width: 70%;
+  text-align: left;
+  font-size: 0.9em;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* skills */
+.skills__list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills__item {
+  width: 20%;
+  margin: 0 1em 2em 0;
+  padding: 1.5em 0;
+}

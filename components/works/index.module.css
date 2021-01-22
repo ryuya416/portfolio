@@ -1,0 +1,20 @@
+.wrapper {
+  margin-bottom: 5rem;
+}
+
+.works__list {
+  display: flex;
+  flex-wrap: wrap;
+  columns: 2;
+  justify-content: space-evenly;
+}
+
+.works__item {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.grid__lang {
+  display: flex;
+  justify-content: center;
+}

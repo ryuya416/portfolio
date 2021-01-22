@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.wrapper form {
+  display: block;
+  width: 100%;
+}
+
+.form__container {
+  width: 75%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form__item {
+  margin-bottom: 1.5rem;
+}
+
+.form__item input {
+  width: 75%;
+  height: 50px;
+}
+
+.form__item textarea {
+  width: 75%;
+  height: 200px;
+}

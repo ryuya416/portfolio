@@ -1,0 +1,105 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 15;
+  overflow-y: hidden;
+}
+
+.content {
+  position: fixed;
+  z-index: 20;
+  background-color: #fff;
+  width: 90%;
+  max-width: 90%;
+  max-width: 1200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  grid-template-rows: 100px auto auto 100px;
+  grid-template-areas:
+    "title thumb"
+    "description image"
+    "links image"
+    "lang image";
+  overflow: scroll;
+}
+
+/* グリッド - タイトル */
+.title {
+  grid-area: title;
+}
+
+/* グリッド - サムネイル */
+.thumb {
+  grid-area: thumb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbImages {
+  object-fit: cover;
+  object-position: 50% 50%; /* 中央 */
+  overflow: hidden;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+/* グリッド - 説明 */
+.description {
+  grid-area: description;
+}
+
+.description__line {
+  text-align: left;
+}
+
+/* グリッド - メイン表示画像 */
+.image {
+  grid-area: image;
+}
+
+.mainImage {
+  width: 500px;
+  height: 500px;
+  object-fit: scale-down;
+  object-position: 50% 50%; /* 中央 */
+  overflow: hidden;
+}
+
+/* グリッド - リンク */
+.links {
+  grid-area: links;
+}
+
+.links__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: left;
+}
+
+.links__item {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+/* グリッド - 使用技術 */
+.lang {
+  grid-area: lang;
+}
+
+.lang__list {
+  display: flex;
+  justify-content: space-evenly;
+}

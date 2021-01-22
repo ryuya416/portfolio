@@ -1,0 +1,29 @@
+.fontLight {
+  font-size: 0.8em;
+}
+
+.lighterColor {
+  color: #696969;
+}
+
+.content {
+  margin-top: 2em;
+}
+
+.logo {
+  height: 1.5em;
+}
+
+.logoBigger {
+  height: 2em;
+}
+
+.contentTitle {
+  letter-spacing: 0.5rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 8px rgba(80, 80, 80, 0.7);
+}

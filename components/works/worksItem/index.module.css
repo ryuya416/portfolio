@@ -1,0 +1,17 @@
+.items__list {
+  padding: 20px 30px;
+}
+
+.items__image {
+  object-fit: scale-down;
+  overflow: hidden;
+  object-position: 50% 0%; /* 中央 */
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.items__image:hover {
+  transform: scale(1.05, 1.05);
+  transition: 0.5s all;
+  box-shadow: 1px;
+}

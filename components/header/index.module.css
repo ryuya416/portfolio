@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  max-width: 1200px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+  padding: 1em 1rem;
+  opacity: 0.9;
+  font-size: 1rem;
+}
+
+.title {
+  font-size: 1.7em;
+  margin: 0 0;
+}
+
+.menu__list {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 1rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.menu__item {
+  margin: 0 10px;
+}
+
+.header a {
+  border-bottom: none;
+  color: #000;
+}
