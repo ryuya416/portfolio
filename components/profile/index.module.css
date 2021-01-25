@@ -11,14 +11,36 @@
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 480px) {
+  .profile__list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .profile__items {
   cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .profile__items {
+    cursor: pointer;
+    padding: 15px;
+  }
 }
 
 .content__wrapper {
   display: flex;
   justify-content: center;
   padding: 2rem 0;
+}
+
+@media screen and (max-width: 480px) {
+  .card__aboutme {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+  }
 }
 
 .card__aboutme {
@@ -37,6 +59,16 @@
   align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+  .item__profileImage {
+    width: 100%;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .item__image {
   border-radius: 200px;
   object-fit: cover;
@@ -50,6 +82,18 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .item__description {
+    width: 100%;
+    text-align: left;
+    font-size: 0.9em;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }
 
 /* skills */
