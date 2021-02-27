@@ -6,21 +6,20 @@ import Image from "next/image";
 export function Profile() {
   const aboutme = "aboutme";
   const skills = "skills";
-  const study = "自己学習";
   const [displayedTab, setDisplayedTab] = useState(aboutme);
 
   const skillset = [
-    { id: "01", name: "HTML", exp: study, imgPath: IMG_PATH.html },
-    { id: "02", name: "CSS", exp: study, imgPath: IMG_PATH.css },
-    { id: "03", name: "JavaScript", exp: study, imgPath: IMG_PATH.js },
-    { id: "04", name: "TypeScript", exp: study, imgPath: IMG_PATH.ts },
-    { id: "05", name: "React", exp: study, imgPath: IMG_PATH.react },
-    { id: "06", name: "Material-UI", exp: study, imgPath: IMG_PATH.material },
-    { id: "07", name: "Next.js", exp: study, imgPath: IMG_PATH.next },
-    { id: "08", name: "Firebase", exp: study, imgPath: IMG_PATH.firebase },
-    { id: "09", name: "Git / GitHub", exp: study, imgPath: IMG_PATH.git },
-    { id: "10", name: "jQuery", exp: study, imgPath: IMG_PATH.jq },
-    { id: "11", name: "Linux", exp: study, imgPath: IMG_PATH.linux },
+    { id: "01", name: "HTML", imgPath: IMG_PATH.html },
+    { id: "02", name: "CSS", imgPath: IMG_PATH.css },
+    { id: "03", name: "JavaScript", imgPath: IMG_PATH.js },
+    { id: "04", name: "TypeScript", imgPath: IMG_PATH.ts },
+    { id: "05", name: "React", imgPath: IMG_PATH.react },
+    { id: "06", name: "Material-UI", imgPath: IMG_PATH.material },
+    { id: "07", name: "Next.js", imgPath: IMG_PATH.next },
+    { id: "08", name: "Firebase", imgPath: IMG_PATH.firebase },
+    { id: "09", name: "Git / GitHub", imgPath: IMG_PATH.git },
+    { id: "10", name: "jQuery", imgPath: IMG_PATH.jq },
+    { id: "11", name: "Linux", imgPath: IMG_PATH.linux },
   ];
 
   const handleClickedTab = (id) => {

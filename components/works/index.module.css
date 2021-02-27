@@ -18,3 +18,12 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 480px) {
+  .works__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
